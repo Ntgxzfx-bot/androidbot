@@ -374,13 +374,13 @@ const donasi = (name) => {
 	return `       
 ╭─────「 *DONASI SEIKHLASNYA* 」
 ┴
-│√ *PULSA : 081368646011*
-│√ *GOPAY : 081368646011*
+│√ *saweria.co/xzar*
+│√ *https://sociabuzz.com/xzar/donate*
 │
-│\`\`\`Gopay\`\`\`
+│\`\`\`Saweria\`\`\`
 │ *15k Invite Bot Ke Grup selama 1 bulan*
 │
-│\`\`\`Pulsa\`\`\`
+│\`\`\`SB\`\`\`
 │ *20k Invite Bot Ke Group Selama 1 Bulan*
 ┬
 ╰──────「 *BY ${name}* 」
