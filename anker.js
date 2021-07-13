@@ -67,13 +67,13 @@ const vcard = 'BEGIN:VCARD\n'
             + 'TEL;type=CELL;type=VOICE;waid=6281368646011:+62 813-6864-6011\n'
             + 'END:VCARD'
 
-prefix = "#"
-name = "~ DARK BOT"
+prefix = "!"
+name = "~ NTGXZFX BOT"
 rdaftar = "HALLO KAK MAKASIH UDH DAFTAR YAA😁"
 rmenu = "HALLO KAK😊"
 botinfo = "MAU SEWA DONASI DLU YA KAK:)"
 limitt = 9999999999
-memberLimit = 2
+memberLimit = 10
 ban = ["6283806369677@s.whatsapp.net"]
 premium = ["6281368646011@s.whatsapp.net"]
 
@@ -201,7 +201,7 @@ async function starts() {
 			}
 
 			const botNumber = dms.user.jid
-			const ownerNumber = ["6281368646011@s.whatsapp.net"] // owner number ubah aja
+			const ownerNumber = ["6285865213494@s.whatsapp.net"] // owner number ubah aja
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await dms.groupMetadata(from) : ''
@@ -456,7 +456,7 @@ async function starts() {
 					me = dms.user
 					user.push(sender)
 					uptime = process.uptime()
-					teks = `➽ *Nama Bot* : ${me.name}\n➽ *Owner Bot* : wa.me/6281368646011\n➽ *prefix* : | ${prefix} |\n➽ *Total Block* : ${blocked.length}\n➽ *Aktif Sejak* : ${kyun(uptime)}\n\n➽ *Total Pengguna* : ${user.length} User\n➽ *Instagram* : https://www.instagram.com/anker_2412\n➽ *Special Thanks To* :\n\n➽ Allah SWT \n➽ MhankBarBar\n➽ Nurutomo\n➽ Monurios\n➽Fxc7\n➽https://github.com/Fxc7/termux-bot-wa`
+					teks = `➽ *Nama Bot* : ${me.name}\n➽ *Owner Bot* : wa.me/6285865213494\n➽ *prefix* : | ${prefix} |\n➽ *Total Block* : ${blocked.length}\n➽ *Aktif Sejak* : ${kyun(uptime)}\n\n➽ *Total Pengguna* : ${user.length} User\n➽ *Instagram* : https://www.instagram.com/ntgxzfx\n➽ *Special Thanks To* :\n\n➽ Allah SWT \n➽ MhankBarBar\n➽ Nurutomo\n➽ Monurios\n➽Fxc7\n➽https`
 					buffer = await getBuffer(me.imgUrl)
 					dms.sendMessage(from, buffer, image, {quoted: mek, caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break 
